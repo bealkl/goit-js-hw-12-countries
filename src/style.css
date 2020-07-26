@@ -1,0 +1,76 @@
+/* select fonts accessable */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@400;900&display=swap');
+/* http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set */
+
+/* font-family: 'Roboto',sans-serif; */
+/* regular=400, bold=700, light=300,semibold=500,black=900 */
+/* font-family: 'Open Sans',sans-serif; */
+
+:root {
+  --font-open-sans: 'Open Sans', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --color-like-tea: rgb(60, 53, 23);
+}
+
+/* default settings for page  */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* some specific setting */
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#inputCountry {
+  display: block;
+  font-family: var(--font-roboto);
+  font-weight: 900;
+  margin: auto;
+  width: 300px;
+}
+
+img {
+  padding-left: 50px;
+  display: block;
+  /* width: 200px; */
+  height: 200px;
+}
+
+li {
+  list-style: inside;
+  margin: 10px;
+}
+
+h1 {
+}
+
+#listCountry {
+  font-family: var(--font-open-sans);
+  font-weight: 300;
+  font-style: 14px;
+  line-height: 0.786;
+  color: var(--color-like-tea);
+}
+
+#countryBlock {
+  display: flex;
+  justify-content: center;
+}
+
+#infoCountry {
+  flex-direction: column;
+  justify-content: start;
+}
