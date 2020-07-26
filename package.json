@@ -33,7 +33,6 @@
     "autoprefixer": "^9.8.5",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.6.0",
     "file-loader": "^6.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "gh-pages": "^2.2.0",
@@ -41,7 +40,6 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "img-loader": "^3.0.1",
-    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
@@ -58,8 +56,10 @@
   "devDependencies": {
     "@pnotify/core": "^5.1.2",
     "core-js": "^3.6.5",
+    "css-loader": "^3.6.0",
     "handlebars": "^4.7.6",
     "lodash.debounce": "^4.0.8",
+    "mini-css-extract-plugin": "^0.9.0",
     "pnotify": "^4.0.0"
   }
 }

@@ -1,6 +1,8 @@
 'use strict';
 
-// import '@pnotify/core/dist/BrightTheme.css';
+import './normalize.css';
+import './style.css';
+import '@pnotify/core/dist/BrightTheme.css';
 import _ from 'lodash';
 import PNotify from '@pnotify/core/dist/PNotify.js';
 
