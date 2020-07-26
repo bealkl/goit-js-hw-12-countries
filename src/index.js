@@ -2,7 +2,6 @@
 
 import './normalize.css';
 import './style.css';
-
 // default styles
 import '@pnotify/core/dist/PNotify.css';
 // default theme
@@ -32,6 +31,7 @@ function showCountries(items) {
     const myAlert = alert({
       text: 'Пожалуйста, введите более точный запрос.',
       type: 'Alert',
+      delay: 2000,
     });
     return;
   }
