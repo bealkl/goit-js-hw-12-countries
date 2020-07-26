@@ -2,9 +2,15 @@
 
 import './normalize.css';
 import './style.css';
+
+// default styles
+import '@pnotify/core/dist/PNotify.css';
+// default theme
 import '@pnotify/core/dist/BrightTheme.css';
+// import { alert, notice, info, success, error, defaultModules } from '@pnotify/core';
+import { alert } from '@pnotify/core';
 import _ from 'lodash';
-import PNotify from '@pnotify/core/dist/PNotify.js';
+// import PNotify from '@pnotify/core/dist/PNotify.js';
 
 const refs = {
   inputCountry: document.querySelector('#inputCountry'),
@@ -22,9 +28,10 @@ function fetchCountries() {
 function showCountries(items) {
   refs.listContry.innerHTML = '';
   if (items.length > 10) {
-    PNotify.alert({
-      title: 'Запрос не найден!',
+    // PNotify.alert((title: 'Запрос не найден!'), (text: 'Пожалуйста, введите более точный запрос.'));
+    const myAlert = alert({
       text: 'Пожалуйста, введите более точный запрос.',
+      type: 'Alert',
     });
     return;
   }
