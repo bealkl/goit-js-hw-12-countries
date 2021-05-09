@@ -51,13 +51,13 @@
     "webpackbar": "^4.0.0",
     "@pnotify/core": "^5.1.2",
     "core-js": "^3.6.5",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
     "@pnotify/core": "^5.1.2",
     "core-js": "^3.6.5",
     "css-loader": "^3.6.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "mini-css-extract-plugin": "^0.9.0",
     "pnotify": "^4.0.0"
